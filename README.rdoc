@@ -2,10 +2,11 @@
 Project from: http://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/project.php?project=5
 
 Simple photo sharing app that allows users to: 
-*signup 
-*login
-*upload/delete photos
-*add/delete comments
+
+* signup 
+* login
+* upload/delete photos
+* add/delete comments
 
 Some sample users that can be used for login:
 
