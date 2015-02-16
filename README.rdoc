@@ -1,6 +1,12 @@
 ==Photo Sharing App
 Project from: http://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/project.php?project=5
 
+Steps to run:
+* Download all the files
+* cd to the directory
+* type rails server
+* open localhost:3000 in the browser
+
 Simple photo sharing app that allows users to: 
 
 * signup 
