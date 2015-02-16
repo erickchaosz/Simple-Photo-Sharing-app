@@ -10,15 +10,15 @@ Simple photo sharing app that allows users to:
 
 Some sample users that can be used for login:
 
-* Last name: Bieber  
+* Last name: Bieber, 
   Password: Justin
-* Last name: Hilton  
+* Last name: Hilton,  
   Password: Paris
-* Last name: Cyrus  
+* Last name: Cyrus,  
   Password: Miley
-* Last name: Obama  
+* Last name: Obama,  
   Password: Barrack
-* Last name: Claus  
+* Last name: Claus,  
   Password: Santa
-* Last name: Ousterhout  
+* Last name: Ousterhout,  
   Password: John
