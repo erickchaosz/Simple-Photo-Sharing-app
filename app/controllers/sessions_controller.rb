@@ -3,19 +3,18 @@ class SessionsController < ApplicationController
   end
 
   def create
-    word = params[:session][:last_name]
-    user = User.find_by(last_name: word)
+    user = User.find_by(last_name: params[:session][:last_name])
     if user && user.authenticate(params[:session][:password])
       log_in(user)
       redirect_to user
     else
-      flash[:danger] = "#{word} not found"
+      flash.now[:danger] = "Invalid last name/password combination"
       render 'new'
     end
   end
 
   def destroy
     log_out
-    render 'new'
+    redirect_to root_url
   end
 end
