@@ -1,0 +1,7 @@
+<%= form_for(@photo) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="upload-field">
+    <%= f.file_field :photo, placeholder: "Add new photo" , class: 'form-control'%>
+  </div>
+  <%= f.submit "Upload", class: "btn btn-primary" %>
+<% end %>

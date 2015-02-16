@@ -1,0 +1,15 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <% if logged_in? %>
+          <li><h4>Hi <%=current_user.first_name %> !</h4></li>
+          <li><%= link_to("Profiles", users_index_path) %></li>
+          <li><%= link_to("Log out", users_logout_path) %></li>
+        <% else %>
+          <li><%= link_to("Log in", users_login_path) %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
