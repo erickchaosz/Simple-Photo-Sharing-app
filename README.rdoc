@@ -1,28 +1,30 @@
-== README
+==Photo Sharing App
+Project from: http://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/project.php?project=5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to run:
+* Download all the files
+* cd to the directory
+* type rails server
+* open localhost:3000 in the browser
 
-Things you may want to cover:
+Simple photo sharing app that allows users to: 
 
-* Ruby version
+* signup 
+* login
+* upload/delete photos
+* add/delete comments
 
-* System dependencies
+Some sample users that can be used for login:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Last name: Bieber, 
+  Password: Justin
+* Last name: Hilton,  
+  Password: Paris
+* Last name: Cyrus,  
+  Password: Miley
+* Last name: Obama,  
+  Password: Barrack
+* Last name: Claus,  
+  Password: Santa
+* Last name: Ousterhout,  
+  Password: John
