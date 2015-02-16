@@ -1,6 +1,7 @@
-==Simple photo sharing app that allows users to: 
+==Photo Sharing App
 Project from: http://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/project.php?project=5
 
+Simple photo sharing app that allows users to: 
 *signup 
 *login
 *upload/delete photos
